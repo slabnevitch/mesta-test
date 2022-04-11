@@ -1765,6 +1765,10 @@ html.filter-calendar-open .filter-cover {
 
 .result-card .similar_slide-img img {
   top: 0;
+  display: block;
+  padding: 0;
+  font-size: inherit;
+  background-color: transparent;
 }
 
 .result-card .similar_slide-adres {
