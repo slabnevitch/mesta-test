@@ -1,7 +1,8 @@
 .container.range-plugin{
-    position: static !important;
+    position: absolute;
     height: auto;
     transform: none;
+    bottom: 0;
 }
 .container.show{
     box-shadow: none;
