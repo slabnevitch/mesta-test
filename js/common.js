@@ -151,7 +151,7 @@
 			// calendar mobile toggle
 			if($target.closest('.item-results-filter__calendar-button').length > 0 || $target.hasClass('item-results-filter__calendar-button')){
 				$('html').addClass('filter-calendar-open');
-				// $('#datepicker-static').click();
+				$('#datepicker-static').click();
 			}
 			if($target.hasClass('filter-cover')){
 				$('html').removeClass('filter-calendar-open');
